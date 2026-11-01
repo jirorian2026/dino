@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="description" content="Marvel Rivals デビル・ダイナソーのシーズン10.5版、PCキー別スキル・出血・追加HP・ULT・連携効果の日本語早見表。公式データとパッチ情報に基づく。">
+<title>DEVIL DINOSAUR S10.5 スキル早見表 | Marvel Rivals</title>
+<style>
+:root{--bg:#0b0d11;--panel:#12161d;--panel2:#171c24;--line:#2a313d;--text:#f3f5f7;--muted:#bac3cf;--red:#ff6468;--red2:#ff9290;--blue:#93c7ff;--violet:#d8b5ff;--gold:#f3d17d;--green:#78dfb7;--orange:#ffaf76}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#090b0f,#0d1117);color:var(--text);font:14px/1.64 "Segoe UI","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif}
+.wrap{max-width:1500px;margin:0 auto;padding:26px 23px 64px}h1{font-size:31px;letter-spacing:.02em;line-height:1.25;margin:0 0 6px}.subtitle{color:var(--muted);margin:0 0 14px}
+.hero{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 22px;border:1px solid #57313b;background:linear-gradient(105deg,#25151c 0%,#1a1720 60%,#141921 100%);border-radius:13px;margin:4px 0 18px}
+.eyebrow{color:var(--red2);font-size:12px;font-weight:800;letter-spacing:.16em}.hero p{margin:9px 0 0;color:#d6ccd0;max-width:900px}.hero-mark{font-size:44px;font-weight:900;line-height:1;color:rgba(255,119,119,.28);border:2px solid rgba(255,119,119,.25);border-radius:18px;padding:15px 18px;white-space:nowrap}
+.legend{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:12px 0 20px;padding:11px 13px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:12px}.legend b{color:var(--red)}.legend .v{color:var(--violet);font-weight:700}.legend .n{color:var(--blue);font-weight:700}
+.badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:800;border:1px solid currentColor;vertical-align:middle;color:var(--blue)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0 20px}.stat{padding:12px 15px;background:var(--panel);border:1px solid var(--line);border-radius:10px}.stat span{font-size:12px;color:var(--muted)}.stat b{display:block;font-size:24px;line-height:1.3;font-variant-numeric:tabular-nums}.stat em{font-style:normal;font-size:12px;color:var(--muted)}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}nav a{background:var(--panel2);border:1px solid var(--line);color:#f3f5f7;text-decoration:none;padding:7px 11px;border-radius:7px;font-size:12px}nav a:hover,nav a:focus{border-color:var(--blue)}
+section{margin:29px 0 0;scroll-margin-top:20px}h2{font-size:22px;margin:0 0 11px;border-left:4px solid var(--blue);padding-left:11px}h2.red-h{border-color:var(--red)}h2.violet-h{border-color:var(--violet)}h2.gold-h{border-color:var(--gold)}.desc{color:var(--muted);font-size:13px;margin:0 0 11px}
+.card{background:rgba(18,22,29,.96);border:1px solid var(--line);border-radius:11px;overflow:hidden}.scroll{overflow-x:auto;overscroll-behavior-x:contain}
+table{border-collapse:collapse;width:100%;min-width:900px}th,td{padding:10px 12px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th:last-child,td:last-child{border-right:none}tbody tr:last-child td{border-bottom:none}thead th{background:#1b2029;color:#fff;font-size:12px;position:sticky;top:0;z-index:1}td{font-size:13.5px}td p{margin:0 0 5px}td p:last-child{margin:0}.sticky-first th:first-child,.sticky-first td:first-child{position:sticky;left:0;z-index:2;background:#151a22;min-width:152px}.sticky-first th:first-child{background:#1b2029;z-index:3}
+.skill{font-weight:750;color:#fff;line-height:1.5}.en{display:block;font-size:11px;font-weight:400;color:var(--muted);margin-top:3px}.key{display:inline-block;white-space:nowrap;font:700 12px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;background:#252c37;border:1px solid #3b4555;border-radius:5px;padding:2px 6px;color:#fff;margin:1px 1px 2px 0}
+.up{color:var(--red);font-weight:800}.muted{color:var(--muted)}.gold{color:var(--gold);font-weight:750}.violet{color:var(--violet);font-weight:750}.blue{color:var(--blue);font-weight:750}.good{color:var(--green);font-weight:750}.kpi{font-weight:800;font-variant-numeric:tabular-nums}
+.note{margin-top:12px;padding:12px 14px;border-left:3px solid var(--gold);background:#1d1a16;color:#e7ddc6;border-radius:6px;font-size:12.5px}.note strong{color:#fff}.note.warning{border-color:var(--orange);background:#211914}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.tile{padding:15px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:13px}.tile h3{font-size:15px;margin:0 0 7px}.tile p{margin:0;color:var(--muted)}
+.sources{margin-top:33px;padding:17px;background:var(--panel);border:1px solid var(--line);border-radius:11px;color:var(--muted);font-size:12px}.sources ol{margin:8px 0 0;padding-left:22px}.sources li{margin:7px 0}.sources a{color:#aed0ff;overflow-wrap:anywhere}a{color:#aed0ff}.source-note{margin:8px 0 0}.actions{display:flex;justify-content:flex-end;margin:0 0 9px}.actions button{cursor:pointer;font:inherit;font-size:12px;background:#24303c;color:#fff;border:1px solid #415166;border-radius:7px;padding:7px 12px}.actions button:hover{background:#344254}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-mark{display:none}}
+@media(max-width:650px){.wrap{padding:16px 12px 38px}h1{font-size:24px}.hero{padding:15px}.stats{gap:7px}.stat{padding:10px}.stat b{font-size:21px}h2{font-size:19px}table{min-width:800px}th,td{padding:8px 9px}.sticky-first th:first-child,.sticky-first td:first-child{min-width:132px}}
+@media print{*{-webkit-print-color-adjust:exact;print-color-adjust:exact}body{background:#fff;color:#111}.wrap{max-width:none;padding:0}.hero,.card,.legend,.stat,.sources,.tile,.note{background:#fff;border-color:#aaa;color:#111}thead th{background:#e8e8e8!important;color:#111}.skill,.tile h3,.note strong,.stat b{color:#111}.en,.muted,.stat span,.tile p,.desc,.sources,.subtitle{color:#555}.up{color:#c00!important}nav,.actions{display:none}.sticky-first td:first-child{background:#fff}.sticky-first th:first-child{background:#eee!important}a{color:#1455a1}section{break-inside:auto}tr{break-inside:avoid}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="actions"><button type="button" onclick="window.print()">印刷 / PDF保存</button></div>
+<div class="hero"><div><div class="eyebrow">MARVEL RIVALS / VANGUARD / SEASON 10.5</div><h1>DEVIL DINOSAUR — スキル早見表</h1><p class="subtitle">デビル・ダイナソー ｜ PCデフォルトキー基準 ｜ 2026年11月1日 公式情報照合</p><span class="badge">VANGUARD / タンク</span><p>通常攻撃・ビームで敵を<strong>出血</strong>させ、出血を起点に攻撃と<strong>追加HP</strong>を得るキャラクター。スキル名の日本語は説明用であり、正式名称（英語）を併記しています。</p></div><div class="hero-mark" aria-hidden="true">DD</div></div>
+<div class="legend"><span><b>赤字</b> = 出血中の敵に対する強化・追加効果</span><span><strong class="gold">黄字</strong> = HP／バリア／追加HP関連</span><span><strong class="violet">紫字</strong> = チームアップ関連</span><span class="muted">CD = クールダウン、1秒 = 1s</span></div>
+<div class="stats"><div class="stat"><span>基本HP <span class="muted">S10.5変更</span></span><b>825</b><em>850 → 825（10/9調整）</em></div><div class="stat"><span>通常攻撃の最大射程</span><b>4 m</b><em>左クリック・近接</em></div><div class="stat"><span>出血ダメージ</span><b>1.2%</b><em>敵の最大HP ／ 1回・秒間2回</em></div><div class="stat"><span>ULT必要エネルギー</span><b>3,400</b><em>Q・Devil-Beast Rampage</em></div></div>
+<nav aria-label="目次"><a href="#quick">キー別の早見表</a><a href="#bleed">出血と追加HP</a><a href="#detail">スキル詳細</a><a href="#ult">ULT詳細</a><a href="#teamup">連携スキル</a><a href="#changes">調整履歴</a><a href="#sources">出典</a></nav>
+
+<section id="quick"><h2>キー別スキル一覧 — まずここだけ見ればOK</h2><div class="card scroll"><table class="sticky-first"><thead><tr><th>キー / スキル</th><th>何ができるか</th><th>主要数値（公式）</th><th>注意点</th></tr></thead><tbody>
+<tr><td><span class="key">左クリック</span><div class="skill">噛みつき<span class="en">Primal Bite</span></div></td><td>前方に噛みつく。命中すると出血を付与。</td><td>75ダメージ ／ 4m<br>出血：最大HPの<span class="up">1.2%</span>を0.5秒ごと、持続4秒</td><td>連続攻撃の間隔：1・3発目1秒、2発目0.9秒。</td></tr>
+<tr><td><span class="key">右クリック</span><div class="skill">エネルギービーム<span class="en">Impact Beam</span></div></td><td>前方にビームを放ち出血・減速を付与。</td><td>40ダメージ/秒 ／ 17m<br>最大3.3秒 ／ 減速15%・2秒</td><td>命中ごとに出血の持続時間を1秒加算する調整がS10で適用。</td></tr>
+<tr><td><span class="key">Shift</span><div class="skill">突進・捕食<span class="en">Savage Predation</span></div></td><td>前方に突進・噛みつき、出血を付与。<span class="up">すでに出血中の敵には噛みついて拘束し、投げ飛ばす。</span></td><td>噛みつき50 ／ CD 10秒<br>突進最大2秒・速度15m/s</td><td>拘束・投擲には対象が先に出血している必要あり。</td></tr>
+<tr><td><span class="key">E</span><div class="skill">球状バリア<span class="en">Buddy Barrier</span></div></td><td>自分の周囲に球状バリアを展開。中の敵を減速。</td><td>バリア耐久<span class="gold">450</span> ／ 最大6秒<br>CD 12秒 ／ 減速15%・2秒</td><td>10秒は旧バージョンの数値。</td></tr>
+<tr><td><span class="key">F</span><div class="skill">連続噛みつき<span class="en">Frenzied Feast</span></div></td><td>計5回噛みつき。与ダメージを追加HPに変換。<span class="up">出血中の敵には最大HP割合の追加ダメージ。</span></td><td>1〜4発目各15、5発目30<br><span class="up">出血中：1〜4発目各+8%、5発目+12%</span><br>CD 8秒</td><td>得られるのは通常のHP回復ではなく<span class="gold">追加HP</span>。</td></tr>
+<tr><td><span class="key">Q</span><div class="skill">暴走ULT<span class="en">Devil-Beast Rampage</span></div></td><td>移動速度アップ。周囲に衝撃波を発生させ、敵を打ち上げ・出血付与。咆哮で減速。</td><td>速度+70% ／ 範囲半径8m<br>踏みつけ10 ／ 0.3秒ごと<br>必要エネルギー3,400</td><td>踏みつけによる打ち上げ間隔0.8秒。CD短縮効果あり（下記）。</td></tr>
+<tr><td><span class="key">常時</span><div class="skill">硬質の鱗<span class="en">Prehistoric Plating</span></div></td><td>ヘッドショット軽減、打ち上げ・ノックバック等の強制移動無効。</td><td>HS被ダメージ<span class="gold">60%軽減</span><br>本人へのダメージ／回復によるULT蓄積<span class="gold">40%減少</span></td><td>ULT蓄積の減少は敵（攻撃）と味方（回復）の両方に影響。</td></tr>
+<tr><td><span class="key">常時</span><div class="skill">出血→追加HP<span class="en">Apex Advantage</span></div></td><td>自分が与えた出血ダメージに応じて追加HPを獲得。</td><td><span class="gold">出血ダメージの150%相当を追加HP化</span></td><td>出血が継続してダメージを与えるほど追加HPを獲得。</td></tr>
+</tbody></table></div></section>
+
+<section id="bleed"><h2 class="red-h">出血と追加HP — 重要な仕様</h2><div class="card scroll"><table class="sticky-first"><thead><tr><th>条件</th><th>効果 / 正確な数値</th><th>読み方・区別</th></tr></thead><tbody>
+<tr><td class="skill">出血を付与</td><td>左クリック・右クリック・Shiftなどで出血。<strong class="up">最大HPの1.2%／tick</strong>、秒間2tick、持続4秒。</td><td>「1.2%／秒」ではない。<strong>1回あたり1.2%、1秒で2回</strong>の記載。</td></tr>
+<tr><td class="skill">敵が出血中にShift</td><td class="up">単なる噛みつきから、対象を噛んで拘束・投擲する効果へ。</td><td>Shift自体の噛みつきダメージは公式値50。</td></tr>
+<tr><td class="skill">敵が出血中にF</td><td class="up">1～4発目は各「敵最大HPの8%」、5発目は「12%」の追加ダメージ。</td><td>5発すべて命中した場合、基本90に加えて<strong class="up">敵最大HPの44%相当</strong>を加算（数値上の合計。実際の被ダメージ軽減等は別）。</td></tr>
+<tr><td class="skill">出血ダメージを与える</td><td class="gold">与えた出血ダメージの150%相当を自身の追加HPに変換。</td><td>パッシブ「Apex Advantage」。<strong>追加HP</strong>であり、通常HPを直接回復する説明ではない。</td></tr>
+<tr><td class="skill">Fでダメージを与える</td><td class="gold">Fで与えたダメージは追加HPに変換される。</td><td>変換倍率の具体値は公式スキル欄に記載なし。この表では勝手に算出しない。</td></tr>
+</tbody></table></div><div class="note"><strong>実戦での仕様上のつながり：</strong> 出血を付与した相手にShiftを当てると拘束・投擲が可能になり、Fには割合追加ダメージが付きます。出血によるダメージは自身の追加HP獲得にもつながります。</div></section>
+
+<section id="detail"><h2>通常スキル — 数値と操作の詳細</h2><div class="card scroll"><table><thead><tr><th style="width:210px">スキル / キー</th><th>公式値</th><th>効果・補足</th></tr></thead><tbody>
+<tr><td><span class="key">左クリック</span><div class="skill">Primal Bite</div></td><td>噛みつき75 ／ 最大距離4m<br>出血1.2%（最大HP）／tick<br>0.5秒に1tick ／ 持続4秒<br>攻撃間隔：1・3発目1秒／2発目0.9秒</td><td>近接攻撃。命中した敵へ継続割合ダメージ（出血）。</td></tr>
+<tr><td><span class="key">右クリック</span><div class="skill">Impact Beam</div></td><td>効果時間3.3秒 ／ 距離17m<br>ダメージ40/秒 ／ 効果半径1.2m<br>移動速度15%減・2秒</td><td>出血と減速を付与。S10の公式調整により、<strong class="up">命中ごとに出血持続時間+1秒</strong>。</td></tr>
+<tr><td><span class="key">Shift</span><div class="skill">Savage Predation</div></td><td>CD 10秒 ／ 突進最大2秒<br>速度15m/s ／ 噛みつき50</td><td>突進・噛みつきで出血を与える。<strong class="up">命中した敵がすでに出血中なら、噛みついて拘束し投げ飛ばす。</strong></td></tr>
+<tr><td><span class="key">E</span><div class="skill">Buddy Barrier</div></td><td>CD 12秒 ／ 最大6秒<br>バリアHP 450 ／ 15%減速・2秒</td><td>球状シールドでダメージを防ぐ。内部にいる敵へ減速を付与。</td></tr>
+<tr><td><span class="key">F</span><div class="skill">Frenzied Feast</div></td><td>CD 8秒 ／ 5連撃<br>通常ダメージ：15×4＋30<br><span class="up">出血相手：追加8%×4＋12%（相手の最大HP）</span></td><td>ダメージを追加HPに変換。数値の合計は全ヒット前提で基本90、出血相手の追加分44%（最大HP比例）。</td></tr>
+<tr><td><span class="key">パッシブ</span><div class="skill">Prehistoric Plating</div></td><td>HS被ダメージ60%軽減<br>ULTエネルギー獲得40%減少</td><td>打ち上げ、ノックバック、その他の強制移動を受けない。本人を攻撃した敵／本人を回復した味方のULTエネルギー獲得量が減少。</td></tr>
+<tr><td><span class="key">パッシブ</span><div class="skill">Apex Advantage</div></td><td>追加HP = 出血ダメージ×150%</td><td>出血によるダメージを与えると、自身の追加HPを獲得する。</td></tr>
+</tbody></table></div></section>
+
+<section id="ult"><h2 class="red-h">Q / Devil-Beast Rampage — ULT詳細</h2><div class="card scroll"><table class="sticky-first"><thead><tr><th>項目</th><th>公式記載数値</th><th>内容</th></tr></thead><tbody>
+<tr><td class="skill">発動</td><td>必要エネルギー <span class="kpi">3,400</span></td><td>突進するような暴走状態。咆哮による音波は命中した敵を減速。</td></tr>
+<tr><td class="skill">移動速度</td><td class="kpi">+70%</td><td>ULT中に移動速度アップ。</td></tr>
+<tr><td class="skill">踏みつけ</td><td>半径 <span class="kpi">8m</span>／1回<span class="kpi">10</span>ダメージ<br>フィールド発生間隔：<span class="kpi">0.3秒</span></td><td>周辺の敵へ衝撃波・打ち上げ・出血を与える。</td></tr>
+<tr><td class="skill">打ち上げ間隔</td><td class="kpi">0.8秒</td><td>公式項目名は Stomp Field Launch-up Interval。</td></tr>
+<tr><td class="skill">CD短縮</td><td><span class="key">F</span>：<span class="kpi">1秒</span><br><span class="key">Shift</span>：<span class="kpi">4秒</span></td><td>公式項目名は Frenzied Feast / Savage Predation Cooldown Reduction。<strong>短縮の細かな発生条件は公式スキル欄に説明がないため、ここでは断定しない。</strong></td></tr>
+</tbody></table></div></section>
+
+<section id="teamup"><h2 class="violet-h">チームアップ — 相手別に比較</h2><p class="desc">チームアップは通常スキルとは別の効果です。Xは連携先が騎乗する際の操作として公式ページに記載されています。相手によって有効になる強化効果を区別しています。</p><div class="card scroll"><table class="sticky-first"><thead><tr><th>相手・スキル</th><th>通常の連携効果</th><th>パートナーがいる場合の強化</th><th>公式数値</th></tr></thead><tbody>
+<tr><td><div class="skill violet">パニッシャー<span class="en">Primal Punishment</span></div><span class="key">C</span> <span class="key">X</span></td><td><span class="key">C</span>で左クリックの噛みつきを磁気キャノン2門の射撃に置き換える。弾が敵・地形へ当たると爆発し出血。</td><td>パニッシャーがデビル・ダイナソーに騎乗可能。騎乗中のパニッシャーは受けるダメージを軽減し、デビル・ダイナソーが一部を肩代わり。騎乗中は使用可能な能力が制限される。</td><td><span class="key">C</span> CD12秒／持続8秒／0.25秒ごと<br>弾5＋範囲20ダメージ／爆発半径3m<br>弾速<span class="kpi">150m/s</span><br><span class="key">X</span> パニッシャー被ダメ25%減／デビル側への肩代わり50%</td></tr>
+<tr><td><div class="skill violet">ジェフ<span class="en">Surf &amp; Turf</span></div><span class="key">右クリック</span> <span class="key">X</span></td><td>通常のビームが水流に変化。敵へダメージを与え、味方を回復できる。</td><td>ジェフが頭に騎乗可能。両者に被ダメージ軽減と継続回復。騎乗中、ジェフの使用スキルに制限あり。</td><td><span class="key">右クリック</span> 最大5秒／射程20m／味方<span class="gold">60HP/秒回復</span><br><span class="key">X</span> 双方の被ダメ12.5%減／双方<span class="gold">15HP/秒回復</span></td></tr>
+<tr><td><div class="skill violet">エルサ・ブラッドストーン<span class="en">Prehistoric Trap</span></div><span class="key">エルサ側 F</span></td><td>エルサが使用するスモーキー・スネア。罠を設置し、敵を拘束・攻撃。毒ガスで範囲継続ダメージ。</td><td>デビル・ダイナソーと組むと、エルサはスモーキー・スネアを<span class="violet">2個まで保持・設置</span>できる。</td><td>エルサ側：CD15秒／発動検知半径5m／罠30ダメージ<br>ガス半径3m・2秒・35ダメージ/秒<br>同時設置最大2個</td></tr>
+</tbody></table></div><div class="note"><strong>注意：</strong> エルサの「F」はエルサ自身の操作です。デビル・ダイナソーの<span class="key">F</span>は常に連続噛みつき「Frenzied Feast」です。</div></section>
+
+<section id="changes"><h2 class="gold-h">シーズン別調整履歴 — 現行値を間違えないために</h2><div class="card scroll"><table class="sticky-first"><thead><tr><th>バージョン</th><th>調整内容</th><th>現在の扱い</th></tr></thead><tbody>
+<tr><td class="skill">S10.5 / 2026-10-09</td><td>基本HP <strong>850 → 825</strong></td><td><strong>825</strong>を掲載。2026年10月29日のパッチノートまで確認。</td></tr>
+<tr><td class="skill">S10 / 2026-09-11</td><td>出血1回あたり <strong>0.75% → 1.2%</strong>。右クリックの命中ごとに加算する出血持続時間 <strong>0.5秒 → 1秒</strong>。パニッシャー連携弾速 <strong>120 → 150m/s</strong>。</td><td>強化後の数字を掲載。</td></tr>
+<tr><td class="skill">S9.5 / 2026-08-07</td><td>Fの出血相手追加ダメージ：前半4発 <strong>5% → 8%</strong>／最後の1発 <strong>10% → 12%</strong>。ジェフ連携の水流は最大 <strong>4 → 5秒</strong>、味方回復 <strong>40 → 60HP/秒</strong>。</td><td>強化後の数字を掲載。</td></tr>
+<tr><td class="skill">S9 / 2026-07-10</td><td>基本HP 750 → 850。パッシブHS軽減 50% → 60%。ULTエネルギー獲得減少 35% → 40%。<strong>チームアップ・アンカーの+100HPボーナス削除。</strong></td><td>公式ヒーロー紹介に残る「+100HP」は旧表示と判断し、HP825に加算しない。</td></tr>
+</tbody></table></div><div class="note warning"><strong>出典間の不一致：</strong> 一部の外部攻略サイトには、EのCD10秒、Fの追加割合5%／10%、HS軽減50%、アンカー+100HPという旧数値があります。公式ヒーロー紹介ページ自体にもアンカー+100HPの旧表記が残っていますが、2026年7月10日公式バランス調整の削除告知を優先しました。</div></section>
+
+<section id="sources"><h2>出典・数値の確認範囲</h2><div class="sources"><strong>Marvel Rivals 公式（2026年11月1日確認）</strong><ol>
+<li>デビル・ダイナソー公式ヒーロー詳細（キー、各スキル基本数値、連携）<br><a href="https://www.marvelrivals.com/20260514/41360_1300391.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/20260514/41360_1300391.html</a></li>
+<li>2026-10-09 Season 10.5 バランス調整（HP 850→825）<br><a href="https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html</a></li>
+<li>2026-09-11 S10 バランス調整（出血、ビーム、連携弾速）<br><a href="https://www.marvelrivals.com/m/balancepost/20260908/41667_1313334.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/m/balancepost/20260908/41667_1313334.html</a></li>
+<li>2026-08-07 S9.5 バランス調整（F、ジェフ連携）<br><a href="https://www.marvelrivals.com/balancepost/20260804/41667_1309952.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/balancepost/20260804/41667_1309952.html</a></li>
+<li>2026-07-10 S9 バランス調整（硬質の鱗、連携HPボーナスの削除）<br><a href="https://www.marvelrivals.com/20260706/41525_1306647.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/20260706/41525_1306647.html</a></li>
+<li>エルサ公式ヒーロー詳細（Prehistoric Trapの罠数値）<br><a href="https://www.marvelrivals.com/20260212/41360_1286981.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/20260212/41360_1286981.html</a></li>
+<li>公式パッチノート（10/22・10/29確認）<br><a href="https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html</a><br><a href="https://www.marvelrivals.com/gameupdate/20261028/41548_1317925.html" target="_blank" rel="noopener noreferrer">https://www.marvelrivals.com/gameupdate/20261028/41548_1317925.html</a></li>
+</ol><p class="source-note">この表は公開されている公式ウェブ情報を整理した非公式の個人用スキル早見表です。日本語スキル名は意味がわかりやすい説明用の表記であり、ゲーム内の日本語正式名称を検証したものではありません。キー表記は公式のPC初期キー基準で、キー割当を変更した場合は異なります。公式で発生条件が明記されていない効果や数値は補完していません。</p></div></section>
+</main>
+</body>
+</html>
